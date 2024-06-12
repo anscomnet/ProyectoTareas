@@ -1,0 +1,66 @@
+﻿<EditForm Model="tarea" OnValidSubmit="Guarda">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="row mb-3 mt-5">
+        <label for="categoria" class="col-sm-2 col-form-label">Categoría: *</label>
+        <div class="col-sm-10">
+            <InputSelect @bind-Value="tarea.CategoriaId" class="form-select" id="categoria" >
+                <option value="">Elige una categoría</option>
+                @if(categorias!=null)
+                {
+                    @foreach(CategoriaEntity categoria in categorias)
+                    {
+                        <option value="@categoria.CategoriaId">@categoria.NombreCategoria</option>
+                    }
+                }
+            </InputSelect>
+            <ValidationMessage For="@(() => tarea.CategoriaId)" />
+        </div>
+    </div>
+        <div class="row mb-3">
+        <label for="prioridad" class="col-sm-2 col-form-label">Prioridad: *</label>
+        <div class="col-sm-2">
+            <InputSelect @bind-Value ="tarea.Prioridad" class="form-select" id="prioridad" >
+                <option value="0">Elige una prioridad...</option>
+                <option value="1">Alta</option>
+                <option value="2">Media</option>
+                <option value="3">Baja</option>
+            </InputSelect>
+            <ValidationMessage For="@(() => tarea.Prioridad)" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="fecha" class="col-sm-2 col-form-label">Programada para: *</label>
+        <div class="col-sm-5">
+            <InputDate @bind-Value="tarea.FechaProgramada" class="form-control" id="fecha" />
+            <ValidationMessage For="@(() => tarea.FechaProgramada)" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label for="nombreTarea" class="col-sm-2 col-form-label">Tarea: *</label>
+        <div class="col-sm-10">
+            <InputText @bind-Value="tarea.NombreTarea" class="form-control" id="nombreTarea" />
+            <ValidationMessage For="@(() => tarea.NombreTarea)" />
+        </div>
+    </div>
+
+    <div class="mt-5 mx-5">
+        <button class="btn btn-success mx-5">GUARDAR</button>
+    </div>
+</EditForm>
+
+
+@code {
+    [Parameter]
+    public TareaEntity tarea { get; set; } = new TareaEntity(); 
+    [Parameter]
+    public EventCallback Guarda { get; set; }
+
+    List<CategoriaEntity> categorias = new List<CategoriaEntity>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categorias = await CategoriaClass.ListaCategoriasAsync(); 
+    }
+
+}

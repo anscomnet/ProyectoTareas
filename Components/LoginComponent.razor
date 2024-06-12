@@ -1,0 +1,57 @@
+﻿@inject NavigationManager NavManager
+@inject WebsiteAuthenticator WebsiteAuthenticator;
+
+<div class="bg-light p-5 rounded-lg m-3">
+    <h1 class="display-4">Inicio de sesión</h1>
+        <hr class="my-4">
+    </div>
+
+    <div class="row mb-3 mt-5 mx-5">
+    <label for="UserName" class="col-sm-2 col-form-label">Correo electrónico:</label>
+    <div class="col-sm-4">
+        <input type="text" @bind="UserEmail" id="UserName" class="form-control" />
+    </div>
+</div>
+<div class="row mb-3">
+    <label for="UserPassword" class="col-sm-2 col-form-label">Contraseña: </label>
+    <div class="col-sm-4">
+                <input type="password" @bind="UserPassword" id="UserPassword" class="form-control" />
+    </div>
+</div>
+
+
+
+<div class="my-5">
+    <button type="submit" class="btn btn-success mx-5" @onclick="iniciarSesion">Iniciar sesión</button>
+</div>
+
+<div class="text-center text-danger display-4 mt-5">
+    <p>@loginMensaje</p>
+</div>
+
+@code {
+
+
+    UsuarioEntity oUsuario = new UsuarioEntity();
+    string loginMensaje = string.Empty; 
+
+    string UserEmail = "";
+    string UserPassword = "";
+
+    private async Task iniciarSesion()
+    {
+        if (UserEmail == "" || UserPassword == "")
+        {
+            loginMensaje = "Proporcione su dirección de correo y contraseña para iniciar sesión.";
+            return;
+        }
+        UsuarioEntity usuario = new UsuarioEntity();
+        usuario = await WebsiteAuthenticator.LoginAsync(UserEmail.Trim().ToLower(), UserPassword.Trim());
+        if(usuario== null)
+        {
+            loginMensaje = "La información que proporcionó para iniciar sesión es incorrecta, por favor verifíquela.";
+            return;
+        }
+            }
+
+}

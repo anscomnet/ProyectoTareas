@@ -1,0 +1,39 @@
+﻿@page "/categoria/eliminacion/{IdCategoria}"
+@inject NavigationManager NavMan
+<PageTitle>Eliminar categoría</PageTitle>
+
+<div class="container">
+    <div class="text-center">
+        <h1 class="h2">@categoria.NombreCategoria</h1>
+        <p>¿Confirmas la eliminación de esta categoría?</p>
+        <button class="btn btn-danger mx-5" @onclick="EliminaCategoria">Confirmar</button>
+        <button class="btn btn-info mx-5" @onclick="Regresar">Regresar</button>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string IdCategoria { get; set; } = string.Empty;
+
+    CategoriaEntity categoria = new CategoriaEntity();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (!string.IsNullOrEmpty(IdCategoria))
+        {
+            categoria = await CategoriaClass.CategoriaPorIdAsync(int.Parse(IdCategoria)) ?? new CategoriaEntity();
+        }
+    }
+
+        private async Task EliminaCategoria()
+    {
+        await CategoriaClass.EliminaCategoriaAsync(categoria.CategoriaId);
+        NavMan.NavigateTo("categorias");
+    }
+
+    private void Regresar()
+    {
+        NavMan.NavigateTo("categorias");
+    }
+
+}

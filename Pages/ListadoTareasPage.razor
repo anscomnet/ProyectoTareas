@@ -1,0 +1,22 @@
+﻿@page "/tareas"
+
+<AuthorizeView Roles="Administrador, Superadministrador">
+    <Authorized>
+        <div class="container">
+            <div class="ms-5 mt-3">
+                <a href="/">Regresar</a>
+            </div>
+            <ListadoTareasComponent />
+
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        <LoginComponent/>
+    </NotAuthorized>
+    <Authorizing>
+        <p>Autorizando...</p>
+    </Authorizing>
+    </AuthorizeView>
+@code {
+
+}

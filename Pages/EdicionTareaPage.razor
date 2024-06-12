@@ -1,0 +1,31 @@
+﻿@page "/tarea/edicion/{IdTarea}"
+@inject NavigationManager NavMan
+<PageTitle>Edición de la tarea</PageTitle>
+
+<div class="container">
+    <FormularioTareaComponent tarea="tarea" Guarda="ActualizaTarea" />
+</div>
+
+@code {
+    [Parameter]
+    public string IdTarea { get; set; } = string.Empty;
+
+    TareaEntity tarea = new TareaEntity();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (!string.IsNullOrEmpty(IdTarea))
+        {
+            tarea = await TareaClass.TareaPorIdAsync(int.Parse(IdTarea)) ?? new TareaEntity();
+        }
+    }
+
+        private void ActualizaTarea()
+    {
+        TareaClass.ActualizaTarea(tarea);
+        NavMan.NavigateTo("/tareas");
+    }
+
+
+
+}

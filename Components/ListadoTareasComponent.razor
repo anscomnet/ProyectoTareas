@@ -1,0 +1,80 @@
+﻿@inject EstadoClaims estadoClaims
+@inject NavigationManager NavMan
+@inject WebsiteAuthenticator webSiteAuthenticator
+<h1 class="h2 text-center">Tareas</h1>
+<h2>@nombreUsuario<button class="btn btn-primary" @onclick="cerrarSesion" >Cerrar sesión</button></h2>
+<a href="tarea/nueva">Nueva tarea</a>
+<hr />
+
+<div class="my-5">
+    @if (tareas==null)
+    {
+        <p>Cargando...</p>
+    }
+    else if (tareas.Count==0)
+    {
+        <p>No se encontraron tareas registradas.</p>
+    }
+    else
+    {
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>PRIORIDAD</th>
+                    <th>CATEGORÍA</th>
+                    <th>FECHA PROGRAMADA</th>
+                    <th>TAREA</th>
+                    <th>STATUS</th>
+                    <th>MODIFICAR</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (TareaEntity tarea in tareas)
+                {
+                    <tr>
+                        <td>@tarea.Prioridad</td>
+                        <td>@tarea.Categoria?.NombreCategoria</td>
+                        <td>@tarea.FechaProgramada.ToString("dd'-'MMM'-'yy")</td>
+                        <td>@tarea.NombreTarea</td>
+                        <td>@tarea.Status</td>
+                        <td><a href="tarea/edicion/@tarea.TareaId">Modificar</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+
+@code {
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
+
+    string nombreUsuario = string.Empty;
+
+    List<TareaEntity> tareas = new List<TareaEntity>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (authenticationState is not null)
+        {
+            var estadoAutenticacion = await estadoClaims.GetAuthenticationData();
+            if (estadoAutenticacion.IsAuthenticated)
+            {
+                nombreUsuario= estadoAutenticacion.Nombre;
+            }
+            else
+            {
+                NavMan.NavigateTo("/");
+            }
+        }
+
+
+        tareas = await TareaClass.ListaTareasAsync();   
+    }
+
+    private async Task cerrarSesion()
+    {
+        webSiteAuthenticator.LogoutAsync();
+    }
+}

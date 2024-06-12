@@ -1,0 +1,330 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\sange\\source\\repos\\Tareas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\pages\\edicioncategoriapage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:pages\\edicioncategoriapage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\components\\formulariocategoriacomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:components\\formulariocategoriacomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\pages\\altausuariopage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:pages\\altausuariopage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\components\\listadotareascomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:components\\listadotareascomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\business\\cifradoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:business\\cifradoclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\models\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:models\\usuarioentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\business\\estadoclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:business\\estadoclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\business\\websiteauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:business\\websiteauthenticator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\pages\\listadotareaspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:pages\\listadotareaspage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\components\\formulariousuariocomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:components\\formulariousuariocomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\models\\tareaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:models\\tareaentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\pages\\nuevatareapage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:pages\\nuevatareapage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\components\\formulariotareacomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:components\\formulariotareacomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\pages\\eliminacategoriapage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:pages\\eliminacategoriapage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|d:\\sange\\source\\repos\\tareas\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{54354FE8-C630-4034-BF17-557278E3F2A6}|Tareas.csproj|solutionrelative:shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_Host.cshtml",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "Pages\\_Host.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-11T03:29:09.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormularioCategoriaComponent.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Components\\FormularioCategoriaComponent.razor",
+              "RelativeDocumentMoniker": "Components\\FormularioCategoriaComponent.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Components\\FormularioCategoriaComponent.razor",
+              "RelativeToolTip": "Components\\FormularioCategoriaComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T16:40:20.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AltaUsuarioPage.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Pages\\AltaUsuarioPage.razor",
+              "RelativeDocumentMoniker": "Pages\\AltaUsuarioPage.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Pages\\AltaUsuarioPage.razor",
+              "RelativeToolTip": "Pages\\AltaUsuarioPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T16:22:56.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EstadoClaims.cs",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Business\\EstadoClaims.cs",
+              "RelativeDocumentMoniker": "Business\\EstadoClaims.cs",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Business\\EstadoClaims.cs",
+              "RelativeToolTip": "Business\\EstadoClaims.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAApwDwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T20:54:54.404Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListadoTareasPage.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Pages\\ListadoTareasPage.razor",
+              "RelativeDocumentMoniker": "Pages\\ListadoTareasPage.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Pages\\ListadoTareasPage.razor",
+              "RelativeToolTip": "Pages\\ListadoTareasPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-04T00:33:40.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsuarioEntity.cs",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Models\\UsuarioEntity.cs",
+              "RelativeDocumentMoniker": "Models\\UsuarioEntity.cs",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Models\\UsuarioEntity.cs",
+              "RelativeToolTip": "Models\\UsuarioEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T00:17:08.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WebsiteAuthenticator.cs",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Business\\WebsiteAuthenticator.cs",
+              "RelativeDocumentMoniker": "Business\\WebsiteAuthenticator.cs",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Business\\WebsiteAuthenticator.cs",
+              "RelativeToolTip": "Business\\WebsiteAuthenticator.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAApwDIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T23:10:20.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormularioTareaComponent.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Components\\FormularioTareaComponent.razor",
+              "RelativeDocumentMoniker": "Components\\FormularioTareaComponent.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Components\\FormularioTareaComponent.razor",
+              "RelativeToolTip": "Components\\FormularioTareaComponent.razor",
+              "ViewState": "AQIAABoAAAAAAAAAAAAswDoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-09T22:57:07.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EdicionCategoriaPage.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Pages\\EdicionCategoriaPage.razor",
+              "RelativeDocumentMoniker": "Pages\\EdicionCategoriaPage.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Pages\\EdicionCategoriaPage.razor",
+              "RelativeToolTip": "Pages\\EdicionCategoriaPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-03T23:21:53.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CifradoClass.cs",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Business\\CifradoClass.cs",
+              "RelativeDocumentMoniker": "Business\\CifradoClass.cs",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Business\\CifradoClass.cs",
+              "RelativeToolTip": "Business\\CifradoClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T01:16:42.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ListadoTareasComponent.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Components\\ListadoTareasComponent.razor",
+              "RelativeDocumentMoniker": "Components\\ListadoTareasComponent.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Components\\ListadoTareasComponent.razor",
+              "RelativeToolTip": "Components\\ListadoTareasComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T18:28:09.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "Pages\\Index.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Pages\\Index.razor",
+              "RelativeToolTip": "Pages\\Index.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-01T22:20:37.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\App.razor",
+              "RelativeDocumentMoniker": "App.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\App.razor",
+              "RelativeToolTip": "App.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T21:21:34.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormularioUsuarioComponent.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Components\\FormularioUsuarioComponent.razor",
+              "RelativeDocumentMoniker": "Components\\FormularioUsuarioComponent.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Components\\FormularioUsuarioComponent.razor",
+              "RelativeToolTip": "Components\\FormularioUsuarioComponent.razor",
+              "ViewState": "AQIAABwAAAAAAAAAAAAswD4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-26T01:37:24.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NuevaTareaPage.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Pages\\NuevaTareaPage.razor",
+              "RelativeDocumentMoniker": "Pages\\NuevaTareaPage.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Pages\\NuevaTareaPage.razor",
+              "RelativeToolTip": "Pages\\NuevaTareaPage.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-18T16:34:25.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TareaEntity.cs",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Models\\TareaEntity.cs",
+              "RelativeDocumentMoniker": "Models\\TareaEntity.cs",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Models\\TareaEntity.cs",
+              "RelativeToolTip": "Models\\TareaEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T00:28:52.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Shared\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Shared\\MainLayout.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Shared\\MainLayout.razor",
+              "RelativeToolTip": "Shared\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T01:48:29.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EliminaCategoriaPage.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Pages\\EliminaCategoriaPage.razor",
+              "RelativeDocumentMoniker": "Pages\\EliminaCategoriaPage.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Pages\\EliminaCategoriaPage.razor",
+              "RelativeToolTip": "Pages\\EliminaCategoriaPage.razor",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAmwCMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T18:26:33.322Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\sange\\source\\repos\\Tareas\\Shared\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Shared\\NavMenu.razor",
+              "ToolTip": "D:\\sange\\source\\repos\\Tareas\\Shared\\NavMenu.razor",
+              "RelativeToolTip": "Shared\\NavMenu.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-31T01:48:16.133Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

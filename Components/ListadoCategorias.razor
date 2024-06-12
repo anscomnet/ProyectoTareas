@@ -1,0 +1,51 @@
+﻿<h1 class="h2 text-center">Categorías</h1>
+<a href="categoria/nuevo">Nueva categoría</a>
+<hr />
+
+<div class="my-5">
+    @if (categorias==null)
+    {
+        <p>Cargando...</p>
+    }
+    else if (categorias.Count== 0)
+    {
+        <p>No se encontraron categorías registradas.</p>
+    }
+    else
+    {
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>CATEGORÍA</th>
+                    <th>Modificar</th>
+                    <th>Eliminar</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (CategoriaEntity categoria in categorias)
+                {
+                    <tr>
+                        <td>@categoria.CategoriaId</td>
+                        <td>@categoria.NombreCategoria</td>
+                        <td>
+                            <a href="categoria/edicion/@categoria.CategoriaId">Modificar</a>
+                        </td>
+                        <td>                            <a href="categoria/eliminacion/@categoria.CategoriaId">Eliminar</a></td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+
+@code {
+    List<CategoriaEntity> categorias = new List<CategoriaEntity>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categorias = await CategoriaClass.ListaCategoriasAsync(); 
+    }
+
+    }

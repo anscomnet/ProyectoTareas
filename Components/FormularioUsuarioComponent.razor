@@ -1,0 +1,68 @@
+﻿@inject NavigationManager NavManager
+
+<EditForm Model="@oUsuario" OnValidSubmit="@guardaDatos">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row mb-3 mt-3">
+        <label for="nombre" class="col-sm-2 col-form-label">Nombre: *</label>
+        <div class="col-sm-5">
+            <InputText @bind-Value="oUsuario.Nombre" class="form-control" id="nombre" />
+            <ValidationMessage For="@(() => oUsuario.Nombre)" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="apellidos" class="col-sm-2 col-form-label">Apellidos: *</label>
+        <div class="col-sm-5">
+            <InputText @bind-Value="oUsuario.Apellidos" class="form-control" id="apellidos" />
+            <ValidationMessage For="@(() => oUsuario.Apellidos)" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="email1" class="col-sm-2 col-form-label">Correo electrónico: *</label>
+        <div class="col-sm-5">
+            <InputText @bind-Value="oUsuario.Email" class="form-control" id="email1" />
+            <ValidationMessage For="@(() => oUsuario.Email)" />
+        </div>
+    </div>
+    
+    <div class="row mb-3">
+        <label for="password1" class="col-sm-2 col-form-label">Contraseña: *</label>
+        <div class="col-sm-5">
+            <input type="password" @bind-value="oUsuario.Password1" class="form-control" id="password1" />
+            <ValidationMessage For="@(() => oUsuario.Password1)" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label for="password2" class="col-sm-2 col-form-label">Confirme su contraseña: *</label>
+        <div class="col-sm-5">
+            <input type="password" @bind-value="oUsuario.Password2" class="form-control" id="password2" />
+            <ValidationMessage For="@(() => oUsuario.Password2)" />
+        </div>
+    </div>
+
+    <div class="text-center my-5">
+        <button class="btn btn-success">GUARDAR</button>
+    </div>
+
+</EditForm>
+
+
+@code {
+    UsuarioEntity usuario = new UsuarioEntity();
+    VistaUsuario oUsuario = new VistaUsuario();
+
+    private void guardaDatos()
+    {
+        usuario.Nombre = oUsuario.Nombre;
+        usuario.Apellidos = oUsuario.Apellidos;
+        usuario.Email = oUsuario.Email;
+        usuario.Password = CifradoClass.CifraClave(oUsuario.Password1);
+        usuario.Rol = "Administrador";
+        UsuarioClass.CrearUsuario(usuario);
+        NavManager.NavigateTo("/");
+    }
+}

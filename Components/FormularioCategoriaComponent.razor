@@ -1,0 +1,26 @@
+﻿<EditForm Model="categoria" OnValidSubmit="Guarda">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="row mb-3 mt-5">
+        <label for="categoria" class="col-sm-2 col-form-label">Categoría: *</label>
+        <div class="col-sm-10">
+            <InputText @bind-Value="categoria.NombreCategoria" class="form-control" id="categoria" />
+                        <ValidationMessage For="@(() => categoria.NombreCategoria)" />
+        </div>
+    </div>
+
+    <div class="mt-5 mx-5">
+        <button class="btn btn-success mx-5">GUARDAR</button>
+    </div>
+</EditForm>
+
+
+@code {
+    [Parameter]
+    public CategoriaEntity categoria { get; set; } = new CategoriaEntity();
+    [Parameter]
+    public EventCallback Guarda { get; set; }
+
+
+}

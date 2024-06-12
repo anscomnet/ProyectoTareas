@@ -1,0 +1,23 @@
+﻿@page "/tarea/nueva"
+@inject NavigationManager NavMan
+<PageTitle>Nueva tarea</PageTitle>
+
+<div class="container">
+<FormularioTareaComponent tarea="tarea" Guarda="AgregaTarea" />"
+</div>
+
+@code {
+    TareaEntity tarea = new TareaEntity();
+
+    
+
+    private void AgregaTarea()
+    {
+        tarea.Status = "Pendiente";
+        TareaClass.CrearTarea(tarea);        
+        NavMan.NavigateTo("/tareas");
+    }
+
+
+
+}

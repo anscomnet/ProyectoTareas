@@ -1,0 +1,27 @@
+﻿ @page "/"
+@using System.Reflection
+
+<PageTitle>Mis tareas - @AppName</PageTitle>
+<div>
+    <a href="categorias">Listado de categorías</a>
+</div>
+<div>
+    <a href="tareas">Listado de tareas</a>
+</div>
+<div>
+    <a href="altausuario">Alta de usuarios</a>
+</div>
+@code{
+
+        string AppName { get; set; }
+
+    protected override void OnInitialized()
+    {
+        // Obteniendo el ensamblado actual
+        var assembly = Assembly.GetExecutingAssembly();
+        
+        // Obteniendo el nombre de la aplicación
+        AppName = assembly.GetName().Name;
+    }
+
+}

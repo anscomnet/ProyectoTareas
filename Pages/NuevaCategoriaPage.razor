@@ -1,0 +1,20 @@
+﻿@page "/categoria/nuevo"
+@inject NavigationManager NavMan 
+<PageTitle>Nueva categoría</PageTitle>
+
+<div class="container">
+<FormularioCategoriaComponent categoria="categoria" Guarda="AgregaCategoria" />
+</div>
+
+@code {
+    CategoriaEntity categoria = new CategoriaEntity(); 
+
+    private void AgregaCategoria()
+    {
+        CategoriaClass.CrearCategoria(categoria);
+        NavMan.NavigateTo("/categorias");
+    }
+
+
+
+}

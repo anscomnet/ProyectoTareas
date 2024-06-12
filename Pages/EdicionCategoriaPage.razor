@@ -1,0 +1,32 @@
+﻿@page "/categoria/edicion/{IdCategoria}"
+@inject NavigationManager NavMan
+<PageTitle>Edición de la categoría</PageTitle>
+
+<div class="container">
+    <FormularioCategoriaComponent categoria="categoria" Guarda="ActualizaCategoria" />
+</div>
+
+@code {
+    [Parameter]
+    public string IdCategoria { get; set; } = string.Empty; 
+
+    CategoriaEntity categoria = new CategoriaEntity();
+
+    protected override async Task OnParametersSetAsync()
+    {
+        if (!string.IsNullOrEmpty(IdCategoria))
+        {
+            categoria = await CategoriaClass.CategoriaPorIdAsync(int.Parse(IdCategoria)) ?? new CategoriaEntity();  
+        }
+    }
+
+
+        private void ActualizaCategoria()
+    {
+        CategoriaClass.ActualizaCategoria(categoria);
+        NavMan.NavigateTo("/categorias");
+    }
+
+
+
+}
